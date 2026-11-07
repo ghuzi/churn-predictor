@@ -13,6 +13,28 @@ from validation import validate_customer, ChurnInputError
 
 st.set_page_config(page_title="Customer Churn Predictor", page_icon="📉", layout="wide")
 
+# ---------- Custom look: Forest Green -> Electric Purple gradient ----------
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(
+            180deg,
+            #1F3D2B 0%,
+            #1F3D2B 35%,
+            #4C2F8F 75%,
+            #8B5CF6 100%
+        );
+        background-attachment: fixed;
+    }
+    h1, h2, h3 {
+        color: #E8DCC4 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 @st.cache_resource
 def load_model():
