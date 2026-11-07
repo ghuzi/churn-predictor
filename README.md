@@ -2,7 +2,7 @@
 
 A Streamlit web app that predicts whether a telecom customer is likely to churn (leave), built with scikit-learn on the Telco Customer Churn dataset.
 
-**Live demo:** https://churn-predictor-huzaif.streamlit.app
+**Live demo:** https://churn-predictor-ghuzaif.streamlit.app
 
 ## What it does
 
