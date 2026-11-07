@@ -12,7 +12,7 @@ Enter a customer's details (demographics, services, contract, billing) and the a
 - **Medium:** 40% to 70%
 - **High:** 70% and above
 
-It is a decision-support tool to help a retention team rank customers by churn risk, not a fully automated decision-maker.
+It also suggests retention actions and shows a what-if chart of how the contract type changes the customer's risk. It is a decision-support tool to help a retention team rank customers by churn risk, not a fully automated decision-maker.
 
 ## Model
 
@@ -32,6 +32,7 @@ See [MODEL_CARD.md](MODEL_CARD.md) for full details, intended use and limitation
 | `churn_schema.json` | Expected input columns and allowed values |
 | `churn_model.joblib` | Trained scikit-learn pipeline (preprocessing + model) |
 | `telco_churn.csv` | Training dataset |
+| `.streamlit/config.toml` | App theme |
 | `requirements.txt` | Python dependencies |
 
 ## Run locally

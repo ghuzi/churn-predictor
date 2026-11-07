@@ -188,3 +188,4 @@ if st.button("Predict churn risk", type="primary"):
     chart_df = pd.DataFrame({"Churn probability": probs}, index=options)
     st.bar_chart(chart_df)
     st.caption("Same customer, only the contract type changed. All other details stay the same.")
+    
